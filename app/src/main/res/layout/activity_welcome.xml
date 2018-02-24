@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="decofy.dlsu.edu.ph.decofy.WelcomeActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/first_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/firstimg" />
+
+        <ImageView
+            android:src="@mipmap/secondimg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/second_img"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/third_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/thirdimg" />
+
+        <ImageView
+            android:src="@mipmap/fourthimg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fourth_img"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome To Decofy"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:fontFamily="serif"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/desc"
+        android:text="Start finding the right furnitures for you. Whether it's for your home or office, we got you covered."
+        android:gravity="center"/>
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:layout_gravity="center"
+        android:id="@+id/sign_in"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account? Sign up here"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:id="@+id/sign_up"/>
+
+</LinearLayout>
